@@ -1,0 +1,26 @@
+{
+  "name": "eskandria-restaurant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed128aboshady/Eskandria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmed128aboshady/Eskandria/issues"
+  },
+  "homepage": "https://github.com/Ahmed128aboshady/Eskandria#readme",
+  "description": "",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "html-minifier-terser": "^7.2.0",
+    "sharp": "^0.35.1",
+    "terser": "^5.48.0"
+  }
+}

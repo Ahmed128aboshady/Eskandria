@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /js/security.js
+
+# Sitemap
+Sitemap: https://ahmed128aboshady.github.io/Eskandria/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 5
