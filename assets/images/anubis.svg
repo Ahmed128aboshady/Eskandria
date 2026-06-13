@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Pointed Ears -->
+  <path d="M30,55 L45,15 L50,55" />
+  <path d="M50,55 L58,10 L68,55" />
+  <!-- Muzzle / Snout -->
+  <path d="M30,55 C25,55 15,62 10,65 C20,68 35,68 45,68" />
+  <!-- Neck & Collar -->
+  <path d="M45,68 L50,85" />
+  <path d="M68,55 C68,70 65,85 60,85" />
+  <!-- Eye -->
+  <circle cx="38" cy="58" r="3" fill="black" />
+  <!-- Collar bands -->
+  <path d="M48,78 Q55,75 62,78" />
+</svg>

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags (German Default) -->
+  <title>Tisch reservieren | Eskandria Restaurant Berlin Tegel</title>
+  <meta name="description" content="Reservieren Sie Ihren Tisch online bei Eskandria Restaurant in Berlin Tegel. Buchen Sie für Familienfeiern, Abendessen oder unser orientalisches Frühstück.">
+  <meta name="keywords" content="Tisch reservieren Berlin Tegel, Ägyptisch essen buchen, Restaurant Tischreservierung Berlin, Eskandria Reservierung">
+  
+  <link rel="canonical" href="https://eskandria-restaurant.github.io/reservation.html">
+  <link rel="alternate" hreflang="de" href="https://eskandria-restaurant.github.io/reservation.html?lang=de">
+  <link rel="alternate" hreflang="en" href="https://eskandria-restaurant.github.io/reservation.html?lang=en">
+  <link rel="alternate" hreflang="ar" href="https://eskandria-restaurant.github.io/reservation.html?lang=ar">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css?v=6">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TSJHC1QBVF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TSJHC1QBVF');
+  </script>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="main-header">
+    <div class="container navbar-container">
+      <a href="index.html" class="nav-brand">ESKANDRIA</a>
+      
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="nav-menu-list">
+          <!-- Translatable Navbar Links -->
+          <li>
+            <a href="index.html" class="nav-link" id="nav-home">
+              <span class="lang-de">Startseite</span><span class="lang-en">Home</span><span class="lang-ar">الرئيسية</span>
+            </a>
+          </li>
+          <li>
+            <a href="menu.html" class="nav-link" id="nav-menu">
+              <span class="lang-de">Speisekarte</span><span class="lang-en">Menu</span><span class="lang-ar">المنيو</span>
+            </a>
+          </li>
+          <li>
+            <a href="reservation.html" class="nav-link active" id="nav-reserve">
+              <span class="lang-de">Reservierung</span><span class="lang-en">Reservation</span><span class="lang-ar">الحجوزات</span>
+            </a>
+          </li>
+          <li>
+            <a href="order.html" class="nav-link" id="nav-order">
+              <span class="lang-de">Online bestellen</span><span class="lang-en">Order Online</span><span class="lang-ar">اطلب أونلاين</span>
+            </a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link" id="nav-contact">
+              <span class="lang-de">Kontakt</span><span class="lang-en">Contact</span><span class="lang-ar">اتصل بنا</span>
+            </a>
+          </li>
+          
+          <!-- Theme Toggle Button -->
+          <li>
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle Light/Dark Theme">
+              <i class="fa-solid fa-sun"></i>
+            </button>
+          </li>
+
+          <!-- Language Selector -->
+          <li class="lang-selector">
+            <button class="lang-btn" id="lang-btn-trigger" aria-haspopup="true" aria-expanded="false">
+              <i class="fa-solid fa-globe"></i> <span id="active-lang-text">DE</span> <i class="fa-solid fa-chevron-down" style="font-size: 10px;"></i>
+            </button>
+            <div class="lang-dropdown" id="lang-dropdown-menu" role="menu">
+              <button class="lang-option" data-lang="de" role="menuitem">Deutsch</button>
+              <button class="lang-option" data-lang="en" role="menuitem">English</button>
+              <button class="lang-option" data-lang="ar" role="menuitem">العربية</button>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger mobile trigger -->
+      <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Header Section -->
+  <section class="section-padding" style="padding-top: 140px; padding-bottom: 40px; text-align: center; border-bottom: 1px solid var(--border-color);">
+    <div class="container reveal">
+      <h1 class="pharaonic-title" style="font-size: 40px; margin-bottom: 8px;">
+        <span class="lang-de">Tisch Reservieren</span>
+        <span class="lang-en">Book a Table</span>
+        <span class="lang-ar">حجز طاولة</span>
+      </h1>
+      
+      <div class="pharaonic-divider">
+        <i class="fa-solid fa-ankh"></i>
+      </div>
+
+      <p style="color: var(--txt-secondary); max-width: 600px; margin: 0 auto; font-size: 16px;">
+        <span class="lang-de">Sichern Sie sich Ihren Platz im Eskandria. Füllen Sie einfach das Formular aus und erhalten Sie eine Direktbestätigung.</span>
+        <span class="lang-en">Secure your spot at Eskandria. Simply fill out the form below and get instant confirmation.</span>
+        <span class="lang-ar">اضمن مكانك في مطعم إسكندرية. فقط املأ النموذج أدناه لتصلك رسالة التأكيد الفورية.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- Booking Form Area -->
+  <section class="section-padding" style="background-color: var(--bg-primary);">
+    <div class="container">
+      <div class="grid-2">
+        
+        <!-- Form Column -->
+        <div class="card glass-card reveal">
+          <form id="reservation-form">
+            <div class="form-group">
+              <label class="form-label" for="res-name">
+                <span class="lang-de">Name</span><span class="lang-en">Full Name</span><span class="lang-ar">الاسم بالكامل</span>
+              </label>
+              <input type="text" id="res-name" class="form-control" required placeholder="z.B. Max Mustermann">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="res-phone">
+                <span class="lang-de">Telefonnummer</span><span class="lang-en">Phone Number</span><span class="lang-ar">رقم الهاتف</span>
+              </label>
+              <input type="tel" id="res-phone" class="form-control" required placeholder="+49 170 1234567">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="res-guests">
+                <span class="lang-de">Personenanzahl</span><span class="lang-en">Number of Guests</span><span class="lang-ar">عدد الأفراد</span>
+              </label>
+              <select id="res-guests" class="form-control" required>
+                <option value="1">1 Person</option>
+                <option value="2" selected>2 Personen / Guests</option>
+                <option value="3">3 Personen / Guests</option>
+                <option value="4">4 Personen / Guests</option>
+                <option value="5">5 Personen / Guests</option>
+                <option value="6">6 Personen / Guests</option>
+                <option value="7">7 Personen / Guests</option>
+                <option value="8">8 Personen / Guests</option>
+                <option value="9">9 Personen / Guests</option>
+                <option value="10">10+ (Gruppe / Group)</option>
+              </select>
+            </div>
+
+            <div class="grid-2" style="gap: 16px;">
+              <div class="form-group">
+                <label class="form-label" for="res-date">
+                  <span class="lang-de">Datum</span><span class="lang-en">Date</span><span class="lang-ar">التاريخ</span>
+                </label>
+                <input type="date" id="res-date" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="res-time">
+                  <span class="lang-de">Uhrzeit</span><span class="lang-en">Time</span><span class="lang-ar">الوقت</span>
+                </label>
+                <input type="time" id="res-time" class="form-control" required min="09:00" max="21:30">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="res-notes">
+                <span class="lang-de">Sonderwünsche (optional)</span><span class="lang-en">Special Requests (optional)</span><span class="lang-ar">طلبات خاصة (اختياري)</span>
+              </label>
+              <textarea id="res-notes" class="form-control" placeholder="z.B. Hochstuhl für Baby, Geburtstag..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <span class="lang-de">Jetzt via WhatsApp bestätigen</span>
+              <span class="lang-en">Confirm via WhatsApp</span>
+              <span class="lang-ar">تأكيد الحجز عبر الواتساب</span>
+            </button>
+          </form>
+        </div>
+
+        <!-- Details Column -->
+        <div style="display: flex; flex-direction: column; justify-content: center;" class="reveal">
+          <h2 class="pharaonic-title" style="font-size: 24px; margin-bottom: 24px;">
+            <span class="lang-de">Wichtige Infos</span>
+            <span class="lang-en">Important Information</span>
+            <span class="lang-ar">معلومات هامة للحجز</span>
+          </h2>
+          
+          <div style="margin-bottom: 32px;">
+            <h3 style="font-size: 18px; margin-bottom: 8px;">
+              <span class="lang-de"><i class="fa-solid fa-clock"></i> Reservierungszeiten</span>
+              <span class="lang-en"><i class="fa-solid fa-clock"></i> Holding Period</span>
+              <span class="lang-ar"><i class="fa-solid fa-clock"></i> وقت الحجز والمغادرة</span>
+            </h3>
+            <p style="color: var(--txt-secondary); font-size:14px;">
+              <span class="lang-de">Wir halten Ihren reservierten Tisch für maximal 15 Minuten frei. Bitte rufen Sie uns an, falls Sie sich verspäten sollten.</span>
+              <span class="lang-en">We hold reservations for a maximum of 15 minutes. Please call us if you are running late.</span>
+              <span class="lang-ar">نحن نحتفظ بالطاولة المحجوزة لمدة أقصاها 15 دقيقة فقط. يرجى الاتصال بنا هاتفياً في حال حدوث أي تأخير.</span>
+            </p>
+          </div>
+
+          <div style="margin-bottom: 32px;">
+            <h3 style="font-size: 18px; margin-bottom: 8px;">
+              <span class="lang-de"><i class="fa-solid fa-users"></i> Große Gruppen</span>
+              <span class="lang-en"><i class="fa-solid fa-users"></i> Large Groups</span>
+              <span class="lang-ar"><i class="fa-solid fa-users"></i> المجموعات الكبيرة</span>
+            </h3>
+            <p style="color: var(--txt-secondary); font-size:14px;">
+              <span class="lang-de">Für Reservierungen von mehr als 10 Personen kontaktieren Sie uns bitte direkt per Telefon oder WhatsApp für individuelle Menüoptionen.</span>
+              <span class="lang-en">For bookings exceeding 10 people, please call or WhatsApp us directly to coordinate menu setups.</span>
+              <span class="lang-ar">للحجوزات التي تتعدى 10 أفراد، يرجى التواصل معنا هاتفياً أو عبر الواتساب لتنسيق تفاصيل المنيو والمقاعد بشكل مسبق.</span>
+            </p>
+          </div>
+
+          <div style="margin-bottom: 32px;">
+            <h3 style="font-size: 18px; margin-bottom: 8px;">
+              <span class="lang-de"><i class="fa-solid fa-circle-info"></i> Frühstücks-Reservierungen</span>
+              <span class="lang-en"><i class="fa-solid fa-circle-info"></i> Breakfast Buffets</span>
+              <span class="lang-ar"><i class="fa-solid fa-circle-info"></i> حجوزات بوفيه الفطور</span>
+            </h3>
+            <p style="color: var(--txt-secondary); font-size:14px;">
+              <span class="lang-de">Möchten Sie für unser orientalisches Frühstücksbuffet (9,99€) reservieren? Bitte geben Sie dies einfach im Textfeld an.</span>
+              <span class="lang-en">Want to book for our weekend oriental breakfast buffet (€9.99)? Please mention it in the special requests.</span>
+              <span class="lang-ar">هل تود الحجز لبوفيه الفطور الشرقي (9.99 يورو)؟ يرجى كتابة ذلك بوضوح في صندوق الطلبات الخاصة.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">ESKANDRIA</div>
+        <p class="footer-desc">
+          <span class="lang-de">Bringen Sie die reichen Küsten-Aromen Alexandrias und echtes ägyptisches Streetfood direkt in Ihr Herz.</span>
+          <span class="lang-en">Bringing the rich coastal flavors of Alexandria and authentic Egyptian street food straight to your heart.</span>
+          <span class="lang-ar">نقل النكهات البحرية الغنية لمدينة الإسكندرية وأكل الشارع المصري اللذيذ مباشرة إلى قلبك.</span>
+        </p>
+        <div class="footer-socials">
+          <a href="#" class="social-icon-btn" id="dyn-insta-link" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-icon-btn" id="dyn-tiktok-link" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#" class="social-icon-btn" id="dyn-facebook-link" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="footer-heading">
+          <span class="lang-de">Links</span>
+          <span class="lang-en">Links</span>
+          <span class="lang-ar">روابط سريعة</span>
+        </h3>
+        <ul class="footer-links">
+          <li><a href="index.html"><span class="lang-de">Startseite</span><span class="lang-en">Home</span><span class="lang-ar">الرئيسية</span></a></li>
+          <li><a href="menu.html"><span class="lang-de">Speisekarte</span><span class="lang-en">Menu</span><span class="lang-ar">القائمة</span></a></li>
+          <li><a href="reservation.html"><span class="lang-de">Reservierung</span><span class="lang-en">Reservation</span><span class="lang-ar">الحجز</span></a></li>
+          <li><a href="order.html"><span class="lang-de">Online bestellen</span><span class="lang-en">Order Online</span><span class="lang-ar">اطلب الآن</span></a></li>
+          <li><a href="contact.html"><span class="lang-de">Kontakt</span><span class="lang-en">Contact</span><span class="lang-ar">اتصل بنا</span></a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer-heading">
+          <span class="lang-de">Öffnungszeiten</span>
+          <span class="lang-en">Hours</span>
+          <span class="lang-ar">ساعات العمل</span>
+        </h3>
+        <p style="font-size: 14px; color: var(--txt-secondary);" id="dyn-hours">
+          <span class="lang-de">Täglich: 09:00 - 22:00 Uhr</span>
+          <span class="lang-en">Daily: 09:00 AM - 10:00 PM</span>
+          <span class="lang-ar">يومياً: 09:00 ص - 10:00 م</span>
+        </p>
+      </div>
+
+      <div>
+        <h3 class="footer-heading">
+          <span class="lang-de">Kontakt</span>
+          <span class="lang-en">Contact Us</span>
+          <span class="lang-ar">اتصل بنا</span>
+        </h3>
+        <ul class="footer-links" style="font-size:14px; color: var(--txt-secondary);">
+          <li style="margin-bottom: 8px;"><i class="fa-solid fa-phone" style="color:var(--accent-color);"></i> <a href="#" id="dyn-phone-link"><span id="dyn-phone">+49 15560 620462</span></a></li>
+          <li style="margin-bottom: 8px;"><i class="fa-brands fa-whatsapp" style="color:var(--accent-color);"></i> <a href="#" id="dyn-whatsapp-link" target="_blank" rel="noopener"><span id="dyn-whatsapp">+49 176 32554774</span></a></li>
+          <li style="margin-bottom: 8px;"><i class="fa-solid fa-envelope" style="color:var(--accent-color);"></i> <a href="#" id="dyn-email-link"><span id="dyn-email">eskandria.tegel@gmail.com</span></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div>
+        &copy; 2026 <span id="dyn-footer-name">Eskandria Restaurant</span>. 
+        <span class="lang-de">Alle Rechte vorbehalten.</span>
+        <span class="lang-en">All rights reserved.</span>
+        <span class="lang-ar">جميع الحقوق محفوظة.</span>
+      </div>
+      <div style="display: flex; gap: 16px;">
+        <a href="impressum.html"><span class="lang-de">Impressum</span><span class="lang-en">Legal Notice</span><span class="lang-ar">إشعار قانوني</span></a>
+        <a href="datenschutz.html"><span class="lang-de">Datenschutzerklärung</span><span class="lang-en">Privacy Policy</span><span class="lang-ar">سياسة الخصوصية</span></a>
+        <a href="admin.html" style="color: var(--txt-muted); font-size:11px; vertical-align: middle;"><i class="fa-solid fa-lock"></i> Admin</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="js/menu-data.js"></script>
+  <script src="js/security.js"></script>
+  <script src="js/main.js"></script>
+  
+  <script>
+    document.getElementById("res-date").valueAsDate = new Date();
+    document.getElementById("reservation-form").addEventListener("submit", (e) => {
+      e.preventDefault();
+      
+      const name = document.getElementById("res-name").value;
+      const phone = document.getElementById("res-phone").value;
+      const guests = document.getElementById("res-guests").value;
+      const date = document.getElementById("res-date").value;
+      const time = document.getElementById("res-time").value;
+      const notes = document.getElementById("res-notes").value;
+
+      let msg = `Hi Eskandria! I'd like to book a table:\n\n`;
+      msg += `Name: ${name}\n`;
+      msg += `Phone: ${phone}\n`;
+      msg += `Guests: ${guests}\n`;
+      msg += `Date: ${date}\n`;
+      msg += `Time: ${time}\n`;
+      if (notes) {
+        msg += `Notes: ${notes}\n`;
+      }
+
+      const encodedMsg = encodeURIComponent(msg);
+      const config = getConfig();
+      const whatsappPhone = config.contact.whatsapp || "4917632554774";
+      const waUrl = `https://wa.me/${whatsappPhone}?text=${encodedMsg}`;
+      window.open(waUrl, "_blank");
+    });
+
+    const toggle = document.getElementById("mobile-toggle");
+    const menu = document.getElementById("nav-menu-list");
+    if (toggle && menu) {
+      toggle.addEventListener("click", () => {
+        menu.classList.toggle("show");
+        toggle.classList.toggle("active");
+      });
+    }
+  </script>
+</body>
+</html>
+
